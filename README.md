@@ -77,9 +77,13 @@ A: The CSS box model is used to define the design and layout of elements of CSS.
 
 **5. What is the purpose of the z-index and how is it used?**
 
-A:      a) The z-index helps specify the stack order of positioned elements that may overlap one another. 
-	b) The z-index default value is zero, and can take on either a positive or negative number.
-	c) An element with a higher z-index is always stacked above than a lower index.
+A:      Below are the usage and the purpose of z-index: 
+
+	a) The z-index helps specify the stack order of positioned elements that may overlap one another. 
+
+	b) The z-index default value is zero, and can take on either a positive or negative number. 
+	
+	c) An element with a higher z-index is always stacked above than a lower index. 
 	
 	Z-Index can take the following values:
 
