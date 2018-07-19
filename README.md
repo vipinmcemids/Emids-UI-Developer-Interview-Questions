@@ -1,6 +1,7 @@
 # HTML Screening Questions
 
-**1. What is HTML?**
+**1. What is HTML?** 
+
 A: HTML stands for Hyper Text Markup Language. It is a language of World Wide Web. It is a standard text formatting language which is used to create and display pages on the Web
 
 **2. Do all HTML tags have end tag?**
