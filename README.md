@@ -51,7 +51,8 @@ A: div, p, span
 
 **1. How can you integrate CSS on a web page? / Different types of methods to integrate CSS ?**
 
-A: There are three methods to integrate CSS on web pages.
+A: There are three methods to integrate CSS on web pages:
+
 	a) Inline method
 	b) Embedded/Internal method
 	c) Linked/Imported/External method
@@ -62,14 +63,18 @@ A: An overall block is given to class selector while id selectors take only a si
 
 **3. What is the difference between inline, embedded and external style sheets?**
 
-A:      a) Inline: Inline Style Sheet is used to style only a small piece of code.
+A: Below are the differences:
+
+	a) Inline: Inline Style Sheet is used to style only a small piece of code.
 	b) Embedded: Embedded style sheets are put between the <head>...</head> tags.
 	c) External: This is used to apply the style to all the pages within your website by changing just one style sheet.
 
 **4. What is the CSS Box model and what are its elements?**
 
 A: The CSS box model is used to define the design and layout of elements of CSS.
-	The elements are:
+
+The elements are:
+	
 	a) Margin
 	b) Border
 	c) Padding
@@ -77,7 +82,7 @@ A: The CSS box model is used to define the design and layout of elements of CSS.
 
 **5. What is the purpose of the z-index and how is it used?**
 
-A:      Below are the usage and the purpose of z-index: 
+A: Below are the usage and the purpose of z-index: 
 
 	a) The z-index helps specify the stack order of positioned elements that may overlap one another. 
 
@@ -94,7 +99,9 @@ A:      Below are the usage and the purpose of z-index:
 
 **6. Explain the difference between visibility: hidden and display: none?**
 
-A: 	-- visibility: hidden simply hides the element but it will occupy space and affect the layout of the document.
+A: Differences are below:
+
+	-- visibility: hidden simply hides the element but it will occupy space and affect the layout of the document.
 	-- display: none also hides the element but will not occupy space. It will not affect the layout of the document.
 
 **7. What is the hierarchy sides of padding/margin getting the values applied to a box model ?**
@@ -117,8 +124,7 @@ A: To create animations we use keyframes.
 
 **1. What is mixins and how we make use of mixins ?**
 
-A:  In object-oriented programming languages, a Mixin is a class that contains methods for use by other classes without having to be the parent class of those other classes. 
-	Mixins encourage code reuse and can be used to avoid the inheritance ambiguity that multiple inheritance can cause (the "diamond problem"), or to work around lack of support for multiple inheritance in a language. A mixin can also be viewed as an interface with implemented methods.
+A:  In object-oriented programming languages, a Mixin is a class that contains methods for use by other classes without having to be the parent class of those other classes. Mixins encourage code reuse and can be used to avoid the inheritance ambiguity that multiple inheritance can cause (the "diamond problem"), or to work around lack of support for multiple inheritance in a language. A mixin can also be viewed as an interface with implemented methods.
 
 **2. Explain how to define a variable in Sass?**
 
@@ -134,7 +140,8 @@ A: Variables in Sass begin with a ($) sign and variable assignment is done with 
 
 **4. Explain what is the difference between Sass and SCSS?**
 
-A: The difference between Sass and SCSS is that,
+A: The difference between Sass and SCSS are below: 
+
 	a) Sass is a CSS pre-processor with syntax advancements and an extension of CSS3
 	b) Sass has two syntax
 	c) The first syntax is “SCSS” and it uses the .scss extension
@@ -144,7 +151,8 @@ A: The difference between Sass and SCSS is that,
 
 **5. Explain what is the use of the @IMPORT function in Sass?**
 
-	A: The @IMPORT function in Sass
+A: The @IMPORT function in Sass:
+
 	a) Extends the CSS import rule by enabling import of SCSS and Sass files
 	b) All imported files are merged into a single outputted CSS file
 	c) Can virtually mix and match any file and be certain of all your styles
@@ -164,6 +172,7 @@ A: JavaScript is a scripting language. It is different from Java language. It is
 **2. What is a “closure” in JavaScript? Provide an example**
 
 A: A closure is a function defined inside another function (called the parent function), and has access to variables that are declared and defined in the parent function scope. The closure has access to variables in three scopes:
+
 	a) Variables declared in their own scope
 	b) Variables declared in a parent function scope
 	c) Variables declared in the global namespace
@@ -178,7 +187,8 @@ A: The == operator checks equality only whereas === checks equality and data typ
 
 **5. How to create objects in JavaScript?**
 
-A: There are 3 ways to create object in JavaScript.
+A: There are 3 ways to create object in JavaScript:
+
 	a) By object literal
 	b) By creating instance of Object
 	c) By Object Constructor
@@ -187,8 +197,9 @@ A: There are 3 ways to create object in JavaScript.
 **6. Difference between Client side JavaScript and Server side JavaScript?**
 
 A:  Client side JavaScript comprises the basic language and predefined objects which are relevant to running java script in a browser. 
-	The client side JavaScript is embedded directly by in the HTML pages. This script is interpreted by the browser at run time.
-	Server side JavaScript also resembles like client side java script. It has relevant java script which is to run in a server. The server side JavaScript are deployed only after compilation.
+The client side JavaScript is embedded directly by in the HTML pages. This script is interpreted by the browser at run time. 
+
+Server side JavaScript also resembles like client side java script. It has relevant java script which is to run in a server. The server side JavaScript are deployed only after compilation.
 
 **7. Are Java and JavaScript same?**
 
